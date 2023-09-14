@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+.alphabet {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 4vw;
+}
+
+.sizing {
+    display: flex;
+    aspect-ratio: 1 / 1;
+    margin: 0;
+    width: 14.2%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media (min-width: 601px) and (max-width: 1280px) {
+    .sizing {
+        width: 50%;
+    }
+    .alphabet {
+        font-size: 8vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .sizing {
+        width: 100%;
+    }
+
+    .alphabet {
+        font-size: 16vw;
+    }
+}
+
+.a {
+    background-color:aliceblue;
+}
+.b {
+    background-color:antiquewhite;
+}
+.c {
+    background-color:aqua;
+}
+.d {
+    background-color:aquamarine;
+}
+.e {
+    background-color:azure;
+}
+.f {
+    background-color:beige;
+}
+.g {
+    background-color:blanchedalmond;
+}
+.h {
+    background-color:blanchedalmond;
+}
+.i {
+    background-color:blue;
+}
+.j {
+    background-color:blueviolet;
+}
+.k {
+    background-color:brown;
+}
+.l {
+    background-color:burlywood;
+}
+.m {
+    background-color:cadetblue;
+}
+.n {
+    background-color:chartreuse;
+}
+.o {
+    background-color:chocolate;
+}
+.p {
+    background-color:coral;
+}
+.q {
+    background-color:cornflowerblue;
+}
+.r {
+    background-color:cornsilk;
+}
+.s {
+    background-color:crimson;
+}
+.t {
+    background-color:cyan;
+}
+.u {
+    background-color:darkblue;
+}
+.v {
+    background-color:darkcyan;
+}
+.w {
+    background-color:darkgoldenrod;
+}
+.x {
+    background-color:darkgray;
+}
+.y {
+    background-color:darkgreen;
+}
+.z {
+    background-color:darkkhaki;
+}
+.å {
+    background-color:darkmagenta;
+}
+.ä {
+    background-color:darkolivegreen;
+}
+.ö {
+    background-color:darkviolet;
+}
